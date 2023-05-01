@@ -157,7 +157,7 @@ product
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 50px;
+    padding: 10px 50px;
 }
 
 .product-content--home_writing {
@@ -170,7 +170,7 @@ product
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 50px;
+    padding: 10px 50px;
 }
 
 .product-content--addwater_writing {
@@ -183,11 +183,104 @@ product
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 50px;
+    padding: 10px 50px;
 }
 
 .product-content--challenges_writing {
     width: 50%;
     padding: 50px 30px;
 }
+/* 
+=========================================================================
+user research
+========================================================================= 
+*/
+.research-underline {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 50px 0px;
+}
 
+.research-underline--content {
+    width: 80%;
+    border-bottom: 4px solid var(--color-violet);
+}
+
+.research-understand--underline {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0px;
+}
+
+.research-understand--underline_content {
+    width: 60%;
+    text-align: right;
+    border-bottom: 2.5px solid var(--color-pink);
+}
+
+.research-understand--underline_content strong {
+    color: var(--color-violet);
+}
+
+.research-understand--content {
+    width: 50%;
+    padding: 30px 40px;
+}
+
+.research-understand--content a {
+    color: var(--color-violet);
+}
+
+.research-keyfind--underline {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 50px 0px;
+}
+
+.research-keyfind--underline_content {
+    width: 60%;
+    text-align: left;
+    border-bottom: 2.5px solid var(--color-pink);
+}
+
+.research-keyfind--underline_content strong {
+    color: var(--color-violet);
+}
+
+.research-keyfind--content {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+.research-keyfind--content_writing {
+    width: 50%;
+}
+
+.research-persona--underline {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0px;
+}
+
+.research-persona--underline_content {
+    width: 60%;
+    text-align: right;
+    border-bottom: 2.5px solid var(--color-pink);
+}
+
+.research-persona--underline_content strong {
+    color: var(--color-violet);
+}
+
+.research-persona--content_writing {
+    width: 50%;
+    padding: 50px 30px;
+}
+
+.shelby-visual img {
+    width: 200px;
+    height: auto;
+}
