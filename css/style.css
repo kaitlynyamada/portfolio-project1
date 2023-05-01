@@ -122,3 +122,12 @@ overview
     width: 60%;
     padding: 50px 30px;
 }
+
+.overview-content--writing strong {
+    color: var(--color-violet);
+}
+
+.overview-content--links a {
+    color: var(--color-violet);
+}
+
