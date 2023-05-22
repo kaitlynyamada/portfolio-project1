@@ -152,6 +152,10 @@ product
 
 }
 
+.product-content img {
+    width: 90%;
+}
+
 .product-content--home {
     display: flex;
     flex-direction: row;
@@ -280,7 +284,49 @@ user research
     padding: 50px 30px;
 }
 
+.research-persona--content_visual {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.shelby-visual {
+    padding: 2rem;
+}
+
 .shelby-visual img {
-    width: 200px;
+    width: 175px;
     height: auto;
+}
+
+.shelby-quote {
+    padding-left: 2rem;
+    padding-right: 19rem;
+}
+
+.research-problem--underline {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 50px 0px;
+}
+
+.research-problem--underline_content {
+    align-items: left;
+    width: 60%;
+    border-bottom: 2.5px solid var(--color-pink);
+}
+
+.research-problem--underline_content strong {
+    color: var(--color-violet);
+}
+
+.research-problem--content {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.research-problem--content_writing {
+    width: 50px;
+    padding: 50px 30px;
 }
